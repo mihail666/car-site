@@ -1,0 +1,45 @@
+$header-height: 3.5 rem;
+/* Colors */
+
+/*Color mode HSL(hue, saturation, lightness)*/
+$first-color: #d90e32;
+$first-color-alt: #da3a57;
+$text-color: #293148;
+$text-color-light: #293148;
+$white-color: #fff;
+$white-color-alt: #271c1c;
+$menu-bg: #282828;
+$menu-bg-light: #505050;
+$body-color: hsl(0, 0%, 100%);
+$card-color: #F3F6F8;
+$card-color-alt: #EDEDED;
+$border-color: #E4E4e4;
+
+
+/* Font and typography */
+/*.5rem = 8px | 1rem = 16px ...*/
+$body-font: 'DM Sans', sans-serif;
+$h1-font-size: 2rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.25rem;
+$normal-font-size: 1rem;
+$small-font-size: .813rem;
+$smaller-font-size: .75rem;
+
+/* Font weight */
+$font-medium: 500;
+$font-semi-bold: 700;
+
+/* z index */
+$z-tooltip: 10;
+$z-fixed: 100;
+
+/* Responsive typography */
+@media screen and (min-width: 968px) {
+  $h1-font-size: 2rem;
+  $h2-font-size: 1.5rem;
+  $h3-font-size: 1.25rem;
+  $normal-font-size: .1rem;
+  $small-font-size: .875rem;
+  $smaller-font-size: .813rem;
+}

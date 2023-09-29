@@ -1,0 +1,52 @@
+.small-btn {
+  width: 42px;
+  height: 42px;
+  padding: 9px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: none;
+  border: 1px solid $first-color;
+  border-radius: 6px;
+  transition: .3s;
+  cursor: pointer;
+
+  &:hover {
+    transform: rotate(.5turn);
+    background: $first-color-alt;
+
+    img {
+      filter: saturate(100) grayscale(1);
+    }
+  }
+}
+
+.big-btn {
+  width: 180px;
+  height: 42px;
+  padding: 9px 0px 9px 18px;
+  border-radius: 6px;
+  border: 1px solid $first-color;
+  background-color: $first-color;
+  border-radius: 6px;
+  transition: .3s;
+  cursor: pointer;
+  p {
+    text-transform: uppercase;
+    color: $white-color;
+    font-size: 12px;
+    margin-right: 20px;
+    font-weight: $font-semi-bold;
+  }
+  &:hover {
+    background: none;
+    border: 1px solid #000;
+    img {
+      filter: saturate(100) grayscale(1);
+    }
+    p {
+      color: #000;
+    }
+  }
+}
